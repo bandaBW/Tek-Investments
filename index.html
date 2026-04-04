@@ -38,12 +38,25 @@
             <a href="#training">Training</a>
             <a href="#contact">Contact</a>
           </nav>
+          <form class="nav-search" id="site-search-form" role="search">
+            <label class="sr-only" for="site-search-input">Search the website</label>
+            <input
+              class="nav-search-input"
+              id="site-search-input"
+              name="q"
+              type="search"
+              placeholder="Search the site"
+              autocomplete="off"
+            />
+            <button class="nav-search-button" type="submit">Search</button>
+            <p class="search-status" id="search-status" aria-live="polite"></p>
+          </form>
           <a class="nav-cta" href="#contact">Let's Talk</a>
         </div>
       </header>
 
       <main id="top">
-        <section class="hero">
+        <section class="hero" id="home">
           <div class="hero-copy">
             <p class="eyebrow">ICT consultancy services</p>
             <h1>Cybersecurity, quality, and risk expertise built for resilient growth.</h1>
